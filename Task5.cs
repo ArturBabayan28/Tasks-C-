@@ -3,12 +3,12 @@ class Program
 {
     static void Main()
     {
-        Console.Write("Enter the number of rows (M): ");
+        Console.Write("Input the number of rows (M): ");
         int m = int.Parse(Console.ReadLine());
-        Console.Write("Enter the number of columns (N): ");
+        Console.Write("Input the number of columns (N): ");
         int n = int.Parse(Console.ReadLine());
         int[,] matrix = new int[m, n];
-        Console.WriteLine("Enter the matrix elements:");
+        Console.WriteLine("Input the matrix elements:");
         for (int i = 0; i < m; i++)
         {
             for (int j = 0; j < n; j++)
