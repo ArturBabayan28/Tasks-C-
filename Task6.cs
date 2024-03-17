@@ -3,9 +3,9 @@ class RandomMatrix
 {
     static void Main()
     {
-        Console.Write("Enter the number of rows (n): ");
+        Console.Write("Input the number of rows (n): ");
         int n = int.Parse(Console.ReadLine());
-        Console.Write("Enter the number of columns (m): ");
+        Console.Write("Input the number of columns (m): ");
         int m = int.Parse(Console.ReadLine());
         int[,] matrix = Matrix(n, m);
         Console.WriteLine("The Matrix Strokes:");
